@@ -19,8 +19,9 @@ const argv = require('yargs')
 
 if (argv.d) {
   return search(argv.branch)
+    .catch(console.error)
     .then(res => find(res, argv.d))
     .then(console.log);
 }
 
-return search(argv.branch).then(console.log);
+return search(argv.branch).then(console.log).catch(console.error);
