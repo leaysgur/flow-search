@@ -1,3 +1,6 @@
+require('es6-promise').polyfill();
+require('isomorphic-fetch');
+
 const search = require('./lib/search');
 const version = require('./lib/version');
 
