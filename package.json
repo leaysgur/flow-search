@@ -1,9 +1,9 @@
 {
   "name": "flow-search",
   "version": "1.0.0",
-  "description": "",
+  "description": "Search flow builtin types from your console.",
   "bin": {
-    "flow-search": "bin/flow-search.js"
+    "flow-search": "index.js"
   },
   "main": "index.js",
   "scripts": {
