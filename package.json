@@ -1,6 +1,6 @@
 {
   "name": "flow-search",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "",
   "bin": {
     "flow-search": "bin/flow-search.js"
