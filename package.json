@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "Search flow builtin types from your console.",
   "bin": {
-    "flow-search": "index.js"
+    "flow-search": "bin/flow-search.js"
   },
   "main": "index.js",
   "scripts": {
