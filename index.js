@@ -14,8 +14,12 @@ const argv = require('yargs')
   .argv;
 
 if (argv.v) {
-  version();
-  process.exit(0);
+  return version().then(console.log);
 }
 
-search(argv.branch);
+const [ keyword ] = argv._;
+if (keyword) {
+  return search(argv.branch).then(res => find(res, keyword));
+}
+
+return search(argv.branch).then(console.log);
