@@ -1,7 +1,10 @@
 {
   "name": "flow-search",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "",
+  "bin": {
+    "flow-search": "bin/flow-search.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
